@@ -34,3 +34,43 @@
     transition: 0.5s;
     opacity: 0.9;
 }
+
+
+/*{
+  border: 1px solid red !important;
+}
+*/
+
+.active {
+    background-color: #FFD700;
+    color: #FFD700;
+    font-color:#111111;
+}
+
+li:hover{
+background-color: #FFD700;
+color:#FFD700;
+}
+
+li a:hover {
+    background-color: #555;
+    color: #FFD700;
+}
+
+.shop:hover {
+    background-color: #FFD700;
+    color: #FFD700;
+}
+.shop{
+padding: 0px;
+margin: 0px;
+border-width: 10px;
+background-color: #FFD700;
+color: #FFD700;
+}
+
+.navbar-default{
+	 background-color: #FFD700;
+	 font-weight: lighter;
+
+}
