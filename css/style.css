@@ -78,3 +78,11 @@ color: #FFD700;
 .down{
 	padding-top: 15px;
 }
+
+.sshowh{
+    height: 100vh;
+}
+
+.sshoww{
+    width: 100%;
+}
