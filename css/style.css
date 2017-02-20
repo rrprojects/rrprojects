@@ -36,7 +36,7 @@
     font-weight: bold;
 }
 .img-item:hover{
-    background: orange;
+    box-shadow: 0 0 8px blue;
     border: 2px black;
     transition: 0.5s;
     opacity: 0.9;
@@ -51,7 +51,7 @@
 .active {
     background-color: #FFD700;
     color: #FFD700;
-    font-color:#111111;
+    
 }
 
 li:hover{
@@ -88,12 +88,11 @@ color: #FFD700;
 
 .sshowh{
     height: 642px;
-	background-color: rgba(31, 31, 31,0.75);
+
 }
 
 .sshoww{
     width: 100%;
-	background-color: rgba(31,31,31,0.75);
 }
 
 
