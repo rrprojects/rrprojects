@@ -26,8 +26,15 @@
     border-top: 1px grey solid;
     border-bottom: 1px grey solid;
     padding-bottom: 2px;
+    padding-left: 30px;
 }
 
+.link{
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
 .img-item:hover{
     background: orange;
     border: 2px black;
@@ -44,7 +51,7 @@
 .active {
     background-color: #FFD700;
     color: #FFD700;
-    font-color:#111111;
+    
 }
 
 li:hover{
@@ -80,9 +87,22 @@ color: #FFD700;
 }
 
 .sshowh{
-    height: 100vh;
+    height: 642px;
+
 }
 
 .sshoww{
     width: 100%;
+}
+
+
+.electronics{
+    padding-top: 20px;
+}
+.electronics img{
+    width: 90%;
+    height: 300px;
+    border: 1px black solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
