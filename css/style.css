@@ -1,8 +1,8 @@
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 100%;
-      height: 100%;
-      margin: auto;
+      
+      margin: 0px;
   }
 
 .brand{
@@ -34,6 +34,7 @@
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
+    color: #a3a3a3;
 }
 .img-item:hover{
     box-shadow: 0 0 8px blue;
@@ -43,41 +44,38 @@
 }
 
 
-/*{
-  border: 1px solid red !important;
-}
-*/
+
 
 .active {
-    background-color: #FFD700;
-    color: #FFD700;
+    background-color: ;
+    color: ;
     
 }
 
 li:hover{
-background-color: #FFD700;
-color:#FFD700;
+background-color: ;
+color:;
 }
 
 li a:hover {
-    background-color: #555;
-    color: #FFD700;
+    background-color: ;
+    color: ;
 }
 
 .shop:hover {
-    background-color: #FFD700;
-    color: #FFD700;
+    background-color: ;
+    color: ;
 }
 .shop{
 padding: 0px;
 margin: 0px;
 border-width: 10px;
-background-color: #FFD700;
-color: #FFD700;
+background-color: ;
+color: ;
 }
 
 .navbar-default{
-	 background-color: #FFD700;
+	 background-color: 
 	 font-weight: lighter;
 
 }
@@ -87,12 +85,14 @@ color: #FFD700;
 }
 
 .sshowh{
-    height: 642px;
-
+    height: auto;
+    max-height: 100vh;
 }
 
 .sshoww{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -105,4 +105,21 @@ color: #FFD700;
     border: 1px black solid;
     margin-top: 10px;
     padding-bottom: 10px;
+}
+
+.cap{
+    padding: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+}
+
+
+
+img{
+  border: 0px solid white !important;
+}
+
+.img-item{
+      padding: 20px;
+
 }
