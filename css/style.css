@@ -1,0 +1,107 @@
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+  }
+
+.brand{
+    padding-right: 50px;
+}
+/********BOOKS SECTION***********/
+.books{
+    padding-top: 20px;
+}
+.books img{
+    width: 90%;
+    height: 300px;
+    border: 1px black solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.img-item{
+    text-align: center;
+}
+.section-heading{
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+    padding-bottom: 2px;
+    padding-left: 30px;
+}
+
+.link{
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-item:hover{
+    background: orange;
+    border: 2px black;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+
+/*{
+  border: 1px solid red !important;
+}
+*/
+
+.active {
+    background-color: #FFD700;
+    color: #FFD700;
+    font-color:#111111;
+}
+
+li:hover{
+background-color: #FFD700;
+color:#FFD700;
+}
+
+li a:hover {
+    background-color: #555;
+    color: #FFD700;
+}
+
+.shop:hover {
+    background-color: #FFD700;
+    color: #FFD700;
+}
+.shop{
+padding: 0px;
+margin: 0px;
+border-width: 10px;
+background-color: #FFD700;
+color: #FFD700;
+}
+
+.navbar-default{
+	 background-color: #FFD700;
+	 font-weight: lighter;
+
+}
+
+.down{
+	padding-top: 15px;
+}
+
+.sshowh{
+    height: 100vh;
+}
+
+.sshoww{
+    width: 100%;
+}
+
+
+.electronics{
+    padding-top: 20px;
+}
+.electronics img{
+    width: 90%;
+    height: 300px;
+    border: 1px black solid;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
