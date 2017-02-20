@@ -51,7 +51,7 @@
 .active {
     background-color: #FFD700;
     color: #FFD700;
-    font-color:#111111;
+    
 }
 
 li:hover{
@@ -88,6 +88,7 @@ color: #FFD700;
 
 .sshowh{
     height: 642px;
+
 }
 
 .sshoww{
